@@ -1,10 +1,27 @@
-﻿@page
-@model IndexModel
-@{    
-    ViewData["Title"] = "Welcome to grabyourlead";
+@{
+    Layout = null;
 }
 
-<div class="jumbotron">
-    <h1>💜grabyourlead💜 </h1>
-    <p class="lead">under maintenance by grabyourlead, Thank You!</p>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h1>Welcome to GrabYourLead!</h1>
+        <p>This is the index page of your website.</p>
+        <button id="myButton">Click Me</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#myButton').click(function() {
+                // Handle button click here
+            });
+        });
+    </script>
+</body>
+</html>
